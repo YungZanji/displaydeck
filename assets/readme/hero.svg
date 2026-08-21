@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08100B"/>
+      <stop offset="0.55" stop-color="#0D1710"/>
+      <stop offset="1" stop-color="#17230F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8BD218"/>
+      <stop offset="1" stop-color="#4D8E18"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="60" r="170" fill="#76B900" opacity="0.07"/>
+  <circle cx="1020" cy="400" r="230" fill="#76B900" opacity="0.05"/>
+  <g transform="translate(80 70)">
+    <rect x="0" y="0" width="116" height="116" rx="30" fill="url(#accent)"/>
+    <g fill="none" stroke="#F6FFF1" stroke-width="9" stroke-linejoin="round">
+      <rect x="37" y="23" width="43" height="29" rx="6"/>
+      <rect x="17" y="68" width="38" height="26" rx="5"/>
+      <rect x="65" y="68" width="38" height="26" rx="5"/>
+    </g>
+    <g stroke="#F6FFF1" stroke-width="7" stroke-linecap="round">
+      <path d="M58 52v9"/><path d="M45 61h26"/>
+    </g>
+  </g>
+  <text x="230" y="120" fill="#F5FAF5" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">DisplayDeck</text>
+  <text x="232" y="166" fill="#A7B7AA" font-family="Segoe UI, Arial, sans-serif" font-size="24">Save and switch complete display layouts instantly.</text>
+  <g transform="translate(230 220)" font-family="Segoe UI, Arial, sans-serif">
+    <rect x="0" y="0" width="190" height="52" rx="14" fill="#76B900"/>
+    <text x="95" y="34" fill="#081006" font-size="19" font-weight="700" text-anchor="middle">Capture a layout</text>
+    <rect x="206" y="0" width="190" height="52" rx="14" fill="#142018" stroke="#34513C"/>
+    <text x="301" y="34" fill="#F5FAF5" font-size="19" font-weight="600" text-anchor="middle">Switch in one click</text>
+    <rect x="412" y="0" width="190" height="52" rx="14" fill="#142018" stroke="#34513C"/>
+    <text x="507" y="34" fill="#F5FAF5" font-size="19" font-weight="600" text-anchor="middle">Use a hotkey</text>
+  </g>
+  <g transform="translate(820 105)" filter="url(#shadow)">
+    <rect x="94" y="0" width="170" height="94" rx="15" fill="#17251B" stroke="#76B900" stroke-width="3"/>
+    <rect x="0" y="125" width="150" height="84" rx="14" fill="#17251B" stroke="#45604C" stroke-width="3"/>
+    <rect x="178" y="125" width="190" height="84" rx="14" fill="#1A2D1D" stroke="#76B900" stroke-width="3"/>
+    <circle cx="350" cy="140" r="9" fill="#76B900"/>
+    <path d="M179 94v18M135 112h89" stroke="#76B900" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="82" y="376" fill="#6F8174" font-family="Segoe UI, Arial, sans-serif" font-size="17">Windows · NVIDIA GPUs · Local profiles · No account required</text>
+</svg>
