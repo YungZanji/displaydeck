@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270">
+  <rect width="1200" height="270" rx="24" fill="#0C120E"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(55 45)">
+      <rect width="300" height="180" rx="18" fill="#142019" stroke="#2D4634"/>
+      <circle cx="42" cy="42" r="21" fill="#76B900"/><text x="42" y="49" text-anchor="middle" fill="#081006" font-size="20" font-weight="700">1</text>
+      <text x="78" y="49" fill="#F3F7F4" font-size="24" font-weight="700">Arrange</text>
+      <text x="28" y="93" fill="#A7B7AA" font-size="18">Set your monitors exactly how</text>
+      <text x="28" y="119" fill="#A7B7AA" font-size="18">you want them in Windows or</text>
+      <text x="28" y="145" fill="#A7B7AA" font-size="18">NVIDIA Control Panel.</text>
+    </g>
+    <path d="M382 135h70" stroke="#76B900" stroke-width="4" stroke-linecap="round"/><path d="M441 124l14 11-14 11" fill="none" stroke="#76B900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(455 45)">
+      <rect width="300" height="180" rx="18" fill="#142019" stroke="#2D4634"/>
+      <circle cx="42" cy="42" r="21" fill="#76B900"/><text x="42" y="49" text-anchor="middle" fill="#081006" font-size="20" font-weight="700">2</text>
+      <text x="78" y="49" fill="#F3F7F4" font-size="24" font-weight="700">Capture</text>
+      <text x="28" y="93" fill="#A7B7AA" font-size="18">Save the current topology as a</text>
+      <text x="28" y="119" fill="#A7B7AA" font-size="18">named profile such as Desk, TV</text>
+      <text x="28" y="145" fill="#A7B7AA" font-size="18">Only, Gaming, or Work.</text>
+    </g>
+    <path d="M782 135h70" stroke="#76B900" stroke-width="4" stroke-linecap="round"/><path d="M841 124l14 11-14 11" fill="none" stroke="#76B900" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(855 45)">
+      <rect width="290" height="180" rx="18" fill="#142019" stroke="#2D4634"/>
+      <circle cx="42" cy="42" r="21" fill="#76B900"/><text x="42" y="49" text-anchor="middle" fill="#081006" font-size="20" font-weight="700">3</text>
+      <text x="78" y="49" fill="#F3F7F4" font-size="24" font-weight="700">Switch</text>
+      <text x="28" y="93" fill="#A7B7AA" font-size="18">Activate a profile from the app,</text>
+      <text x="28" y="119" fill="#A7B7AA" font-size="18">the system tray, or an assigned</text>
+      <text x="28" y="145" fill="#A7B7AA" font-size="18">global keyboard shortcut.</text>
+    </g>
+  </g>
+</svg>
