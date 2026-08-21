@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 $InstallDir = Join-Path $env:LOCALAPPDATA 'Programs\DisplayDeck'
 $DataDir = Join-Path $env:LOCALAPPDATA 'DisplayDeck'
 $PackageDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$SourceFile = Join-Path $PackageDir 'src\DisplayDeck.Wpf.cs'
+$SourceFiles = Get-ChildItem (Join-Path $PackageDir 'src') -Filter '*.cs' | Sort-Object Name | ForEach-Object { $_.FullName }
 $ManifestFile = Join-Path $PackageDir 'src\app.manifest'
 $IconFile = Join-Path $PackageDir 'assets\DisplayDeck.ico'
 $IconBase64File = Join-Path $PackageDir 'assets\DisplayDeck.ico.b64'
@@ -90,7 +90,7 @@ $compilerArgs = @(
     "/win32manifest:$ManifestFile"
 )
 foreach ($reference in $references) { $compilerArgs += "/reference:$reference" }
-$compilerArgs += $SourceFile
+$compilerArgs += $SourceFiles
 & $csc @compilerArgs
 if ($LASTEXITCODE -ne 0 -or -not (Test-Path $ExeFile)) { throw 'DisplayDeck could not be compiled.' }
 
