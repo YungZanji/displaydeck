@@ -22,12 +22,12 @@ using Microsoft.Win32;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-namespace DisplayModesApp
+namespace DisplayDeckApp
 {
     internal static class Program
     {
-        private const string MutexName = "Local\\DisplayModesWpf_Mutex_8A97E0B6";
-        private const string EventName = "Local\\DisplayModesWpf_Show_8A97E0B6";
+        private const string MutexName = "Local\\DisplayDeck_Mutex_8A97E0B6";
+        private const string EventName = "Local\\DisplayDeck_Show_8A97E0B6";
 
         [STAThread]
         private static void Main(string[] args)
@@ -292,5 +292,4 @@ namespace DisplayModesApp
             catch { }
         }
     }
-
 }
