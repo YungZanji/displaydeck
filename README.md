@@ -69,7 +69,7 @@ The easiest way to install DisplayDeck is from the **Releases** section:
 3. Run `Setup.cmd`.
 4. Launch **DisplayDeck** from the Start menu or desktop shortcut.
 
-If you downloaded the repository source directly, the same `Setup.cmd` installer builds the WPF application locally using the .NET Framework compiler already available on Windows and installs the included NVAPI engine.
+If you downloaded the repository source directly, `Setup.cmd` builds the WPF application locally using the .NET Framework compiler already available on Windows. A packaged release includes the native NVAPI engine; a source checkout can build that engine from `src/NvDisplayEngine.go` when Go is installed.
 
 ## Profile safety
 
